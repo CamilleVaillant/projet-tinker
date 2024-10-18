@@ -1,0 +1,39 @@
+
+
+@media screen and (max-width:1272px) {
+    #reading .u_n_d{
+        flex-wrap: wrap;
+
+    }
+    #reading .u_n_d article{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:1138px){
+    #gallery .tall{
+        flex-direction: column;
+        text-align: center;
+        padding: auto;
+    }
+}
+
+
+@media screen and (max-width:997px){
+    #blog{
+        flex-direction: column;
+    }
+    #blog .left-2{
+        width: 100%;
+        text-align: center;
+        padding-left:0;
+        height: auto;
+    }
+    #blog .left-2 article p{
+        margin-bottom: 0rem;
+    }
+    #blog .right-2{
+        
+    }
+    
+}

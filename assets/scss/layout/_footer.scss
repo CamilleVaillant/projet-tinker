@@ -79,9 +79,13 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    transition: 0.25s ease;
+                    
                     i{
-                        color:rgb(90, 89, 89) ;
+                        color:rgb(90, 89, 89);
+                        transition: 0.25s ease;
+                    }
+                    i:hover{
+                        color: v.$couleur-deux;
                     }
                 }
 
