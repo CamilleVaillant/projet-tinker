@@ -1,0 +1,93 @@
+@use "../abstract/variable" as v;
+
+#footer{
+    background-color:rgb(90, 89, 89);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    .tink{
+        h2{
+            padding-top: 3rem;
+            color: white;
+            font-size: 2rem;
+                .white{
+                    color: v.$couleur-deux;
+                    font-size: 1.5rem;
+                }
+        }
+        p{
+            padding-top:1rem;
+            color: white;
+            .yellow{
+                color: v.$couleur-deux;
+            }
+        }
+       
+    }
+    .location{
+        h4{
+            color: white;
+            text-transform: uppercase;
+            padding-top: 3rem;
+        }
+        .adress{
+            padding-top:2rem;
+            color: white;
+            display: flex;
+            .a1{
+                border-right: 1px solid white;
+                margin-right: 1rem;
+                padding-right: 1rem;
+            }
+            .jump{
+                display: block;
+            }
+            p{
+                line-height: 2rem;
+            }
+
+        }
+    }
+    .info{
+        color: white;
+        h4{
+            text-transform: uppercase;
+            padding-top: 3rem;
+        }
+        p{
+            padding-top: 2rem;
+        }
+    }
+    .social{
+        h4{
+            color: white;
+            text-transform: uppercase;
+            padding-top: 3rem;
+        }
+        ul{
+            display: flex;
+            padding-top:2rem;
+            li{
+                margin-right: 1rem;
+                div{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.25s ease;
+                    i{
+                        color:rgb(90, 89, 89) ;
+                    }
+                }
+
+            }
+
+               
+        }
+    }
+}
